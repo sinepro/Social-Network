@@ -28,3 +28,32 @@ node_modules/
 
 # Ignore test coverage reports
 coverage/
+
+
+
+
+
+
+# Laravel-specific files
+.env
+.env.*
+composer.lock
+vendor/
+
+# Laravel log files
+storage/logs/*.log
+storage/logs/*.txt
+storage/logs/*.xml
+storage/logs/*.sql
+
+# Laravel cache and session files
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
+
+# Laravel user upload files
+storage/app/public/
+
+# Other temporary files
+.DS_Store
+Thumbs.db
