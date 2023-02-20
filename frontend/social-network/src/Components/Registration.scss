@@ -1,0 +1,64 @@
+.registration {
+    display: flex;
+}
+
+.registration__left {
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.registration__left div {
+    font-size: 1rem;
+    border: 1px solid gray;
+    min-width: 35px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.registration__left div:nth-last-of-type(2n) {
+    background-color: black;
+    color: white;
+}
+
+.registration__left div:nth-last-of-type(2n + 1) {
+    background-color: white;
+    color: black;
+}
+
+// Might need to delete later 
+.registration__left div:nth-of-type(n + 13) {
+    display: none;
+}
+
+.registration__left div div {
+    flex: 1;
+}
+
+.registration__right {
+    background: black;
+    padding: 1rem;
+    width: 100%;
+}
+
+.registration__right input {
+    height: 30px;
+    min-width: (50%);
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+}
+
+.registration__right button {
+    margin-top: 50px;
+    width: 50%;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+}
